@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todd J. Taylor Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/ToddLogo.jpg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Lahman Dashboard</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Historical Baseball Visualizations Dashboard</p>
+            <img src="img/portfolio-01.gif" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Creating a visual interactive dashboard for the Lahman Historical baseball Database
+                Lahman Database can be accessed at the following location: 
+            </p>
+            <p>
+                <a href="http://www.seanlahman.com/baseball-archive/statistics/"> 
+                    http://www.seanlahman.com/baseball-archive/statistics/ 
+                </a>
+            </p>
+
+            <p>
+                Each of the following Dashboard utilize User's Input to narrow the range of included individuals and historical data.
+
+                This can be done by Years, Teams, Leagues, Players, Positions, or any combination the user seeks.
+
+            </p>
+
+            <p>
+            <img src="img/portfolio-01-detail.png" alt="">
+            <p>             
+                Program code can be found at the following github repository:
+            </p>
+            <p>
+                <a href="https://github.com/ttaylor14/Lahman-Dashboard"> 
+                    https://github.com/ttaylor14/Lahman-Dashboard
+                </a>
+            </p>
+
+            <p>             
+                Online Heroku App can also be found below or at the follw link:
+            </p>
+            <p>
+                <a href="https://lahman-batting.herokuapp.com/"> 
+                    https://lahman-batting.herokuapp.com/
+                </a>
+            </p>
+
+            <p>
+                <iframe src="https://lahman-batting.herokuapp.com/" width=900 height=600></iframe>
+
+            </p>
+
+
+
+
+            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:mrtsart@gmail.com" class="footer__link">mrtsart@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://rpubs.com/ttaylor14">
+                        <i class="fab fa-r-project"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/todd-taylor-0b9baa2b/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ttaylor14/">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
